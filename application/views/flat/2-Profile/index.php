@@ -10,6 +10,13 @@
 		</p>
 	</div>
 	<p class="text-right"><a class="blue" target="_blank" href="<?=RESOURCES_URL?>pdf/arun-kumar-biography.pdf">Download profile</a></p>
+	<p class="text-right">
+		Download high resolution pictures
+		<a class="blue" target="_blank" href="<?=PUBLIC_URL?>images/0001-hs.jpg">Pic 1</a>,
+		<a class="blue" target="_blank" href="<?=PUBLIC_URL?>images/0002-hs.jpg">Pic 2</a>,
+		<a class="blue" target="_blank" href="<?=PUBLIC_URL?>images/0003-hs.jpg">Pic 3</a>,
+		<a class="blue" target="_blank" href="<?=PUBLIC_URL?>images/0004-hs.jpg">Pic 4</a>
+	</p>
 	<div class="row gap-below">
 		<div class="col-md-6">
 			<a href="<?=GALLERY_URL?>001.jpg"><img src="<?=GALLERY_URL?>001.jpg" class="img-responsive" /></a>

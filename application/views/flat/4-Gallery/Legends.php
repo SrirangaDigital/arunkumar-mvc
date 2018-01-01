@@ -32,9 +32,8 @@
 	<div class="brick"><img data-original="<?=GALLERY_URL?>049.jpg" src="<?=GALLERY_URL?>049.jpg" alt="With Sri Mano, Smt K S Chitra and Smt Malgudi Shuba"></div>
 	<div class="brick"><img data-original="<?=GALLERY_URL?>051.jpg" src="<?=GALLERY_URL?>051.jpg" alt="With Stephan Devassy, U Rajesh, Giridhar Udupa, Mohini Dey, Varijashree and othe crew members"></div>
 	<div class="brick"><img data-original="<?=GALLERY_URL?>066.jpg" src="<?=GALLERY_URL?>066.jpg" alt="Blessings from Pandit Jasraj"></div>
-	<div class="brick"><img data-original="<?=GALLERY_URL?>067.jpg" src="<?=GALLERY_URL?>067.jpg" alt="Playing Ghatam with his friend Giridhar Udupa at the age of 10"></div>
+	<div class="brick"><img data-original="<?=GALLERY_URL?>067.jpg" src="<?=GALLERY_URL?>067.jpg" alt="With Dr. K J Yesudas"></div>
 	<div class="brick"><img data-original="<?=GALLERY_URL?>068.jpg" src="<?=GALLERY_URL?>068.jpg" alt="With Dr. P B Srinivas"></div>
-	<div class="brick"><img data-original="<?=GALLERY_URL?>069.jpg" src="<?=GALLERY_URL?>069.jpg" alt="With the Drums Maestro Billy Cobham and his dearest friend Ravichandra Kulur"></div>
-	<div class="brick"><img data-original="<?=GALLERY_URL?>070.jpg" src="<?=GALLERY_URL?>070.jpg" alt="With Dr. K J Yesudas"></div>
+	<div class="brick"><img data-original="<?=GALLERY_URL?>070.jpg" src="<?=GALLERY_URL?>070.jpg" alt="With the Drums Maestro Billy Cobham and his dearest friend Ravichandra Kulur"></div>
 	<div class="brick"><img data-original="<?=GALLERY_URL?>072.jpg" src="<?=GALLERY_URL?>072.jpg" alt="With Pandit Bickram Ghosh"></div>
 </div>
