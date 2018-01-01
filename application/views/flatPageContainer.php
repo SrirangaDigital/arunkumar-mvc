@@ -1,9 +1,7 @@
-<div class="container">
-    <div class="row">
-        <!-- Column 1 -->
-        <div class="col-md-12 clear-paddings">
-            <div class="col-padded"><!-- inner custom column -->
-                <div class="flat-page">
+<div class="maintext">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
 <!-- Flat page will be included here -->
 <?php
 
@@ -24,6 +22,7 @@ else{
 }
 
 ?>
-                </div>
             </div>
         </div>
+    </div>
+</div>

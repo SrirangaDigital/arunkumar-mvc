@@ -4,7 +4,7 @@
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title><?php if($pageTitle) echo $pageTitle . ' | '; ?>Dhvanyaloka Centre for Indian Studies</title>
+    <title><?php if($pageTitle) echo $pageTitle . ' | '; ?>Arun Kumar | Official Website</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -14,38 +14,21 @@
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet' type='text/css'>
-    <link href="//fonts.googleapis.com/css?family=Raleway:100,400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
 
     <!-- Javascript calls
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="<?=PUBLIC_URL?>js/viewer.js"></script>
-
-    <script type="text/javascript">var base_url = "<?= BASE_URL?>";</script>
-    <script type="text/javascript" src="<?=PUBLIC_URL?>js/common.js"></script>
-    <script type="text/javascript" src="<?=PUBLIC_URL?>js/treeview.js"></script>
     
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/normalize.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> -->
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/navbar.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/carousel.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/page.css?v=1.0">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/archive.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/general.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/flat.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/form.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/aux.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/social.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/viewer.css">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/navbar.css?v=2.0">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/page.css?v=2.1">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/viewer.css?v=2.1">
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -57,22 +40,26 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <nav class="navbar navbar-default navbar-fixed-top wider">
-        <div class="container">
+    <?php $fixTop = (preg_match('/flat\/Home/', $path)) ? ' navbar-fixed-top' : ''; ?>
+    <nav class="navbar navbar-default <?=$fixTop?>" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo of the Indian Academy of Sciences" class="img-circle"></a>
-                <p class="navbar-text"><span class="head">Dhvanyaloka</span><br /><span class="subhead">Center for English Studies and Indigenous Arts</span></p>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <?=$this->printNavigation($navigation)?>
-            </div><!--/.nav-collapse -->
-        </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <?php
+                    $ulClass = (preg_match('/flat\/Home/', $path)) ? ' class="nav navbar-nav navbar-right"' : ' class="nav navbar-nav invert navbar-right"';
+                    $this->printNavigation($navigation, $ulClass);
+                ?>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
     </nav>
     <!-- End Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
