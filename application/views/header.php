@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59279345-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-59279345-5');
+    </script>
+
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
@@ -26,9 +38,9 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/navbar.css?v=2.0">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/page.css?v=2.1">
-    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/viewer.css?v=2.1">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/navbar.css?v=3.0">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/page.css?v=3.0">
+    <link rel="stylesheet" href="<?=PUBLIC_URL?>css/viewer.css?v=3.0">
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
