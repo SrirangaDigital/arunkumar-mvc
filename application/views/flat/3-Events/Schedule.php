@@ -41,6 +41,70 @@
 			<p class="date">26 January 2018</p>
 			<p class="about">Performing at a special concert with N Amrit, Giridhar Udupa and Ravichandra Kulur in Bengaluru</p>
 		</li>
+		<li data-date="2018-02-01">
+			<p class="date">1 February 2018</p>
+			<p class="about">Chowdaiah Memorial hall celebrating Father and Guru Sri Sukumar's 70th Birthday celebrations</p>
+		</li>
+
+		<li data-date="2018-02-03">
+			<p class="date">3 February 2018</p>
+			<p class="about">Concert with Vijay Prakash and Rajesh Krishnan </p>
+		</li>
+
+		<li data-date="2018-02-04">
+			<p class="date">4 February 2018</p>
+			<p class="about">Concert with Layatharanga for a Private Audiance</p>
+		</li>
+
+		<li data-date="2018-02-07">
+			<p class="date">7 February 2018</p>
+			<p class="about">Concert with Vijay Prakash at Shravanabelagola on the occasion of Maha Masthakabhisheka</p>
+		</li>
+
+		<li data-date="2018-02-08">
+			<p class="date">8 February 2018</p>
+			<p class="about">Private Concert</p>
+		</li>
+
+		<li data-date="2018-02-11">
+			<p class="date">11 February 2018</p>
+			<p class="about">Private Concert</p>
+		</li>
+
+		<li data-date="2018-02-16">
+			<p class="date">16 February 2018</p>
+			<p class="about">Concert with Vijay Prakash at VIT Vellore</p>
+		</li>
+
+		<li data-date="2018-02-18">
+			<p class="date">18 February 2018</p>
+			<p class="about">Concert with Vijay Prakash at Singapore</p>
+		</li>
+
+		<li data-date="2018-02-20">
+			<p class="date">20 February 2018</p>
+			<p class="about">Concert with Violin Masestro's Ganesh & Kumaresh at New Delhi</p>
+		</li>
+
+		<li data-date="2018-02-23">
+			<p class="date">23 February 2018</p>
+			<p class="about">Concert with Vijay Prakash in Bangalore</p>
+		</li>
+
+		<li data-date="2018-02-24">
+			<p class="date">24 February 2018</p>
+			<p class="about">Concert with Ghatam Giridhar Udupa in Bangalore</p>
+		</li>
+
+		<li data-date="2018-02-25">
+			<p class="date">25 February 2018</p>
+			<p class="about">Carnatic Classical concert at Shimoga</p>
+		</li>
+
+		<li data-date="2018-02-28">
+			<p class="date">28 February 2018</p>
+			<p class="about">Concert at TTD temple, Tirupathi</p>
+		</li>
 		<!-- Template -->
 		<!-- <li>
 			<p class="date">12 January 2018</p>
@@ -55,7 +119,7 @@
 		var today = new Date();
 		$('.concerts li').each(function(index){
 
-			var date = new Date($(this).attr('data-date'));
+			var date = new Date($(this).attr('data-date') + ' 23:59:59');
 			if(date < today)
 				$(this).remove();
 		});
