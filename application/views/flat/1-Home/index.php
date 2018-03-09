@@ -142,7 +142,35 @@
 						<p class="date">28 February 2018</p>
 						<p class="about">Concert at TTD temple, Tirupathi</p>
 					</li>
+					<li data-date="2018-03-08">
+						<p class="date">08 March 2018</p>
+						<p class="about">Performing with Mysore Manjunath, Arjun Kumar and N Amrith at PESIT</p>
+					</li>
 
+					<li data-date="2018-03-15">
+						<p class="date">15 March 2018</p>
+						<p class="about">Performing at Mumbai Drum Day at St Andrews Auditorium Mumbai</p>
+					</li>
+
+					<li data-date="2018-03-17">
+						<p class="date">17 March 2018</p>
+						<p class="about">Performing with Vijay Prakash for a private event</p>
+					</li>
+
+					<li data-date="2018-03-21">
+						<p class="date">21 March 2018</p>
+						<p class="about">Performing with Rajesh Vaidya for a private event</p>
+					</li>
+
+					<li data-date="2018-03-25">
+						<p class="date">25 March 2018</p>
+						<p class="about">Performing with Jayanthi Kumaresh at Chowdaiah Memorial Hall</p>
+					</li>
+
+					<li data-date="2018-03-31">
+						<p class="date">31 March 2018</p>
+						<p class="about">Performing with Rajesh Vaidya for a private event</p>
+					</li>
 					<!-- Template -->
 					<!-- <li>
 						<p class="date">12 January 2018</p>
