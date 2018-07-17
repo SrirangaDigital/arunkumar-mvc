@@ -134,6 +134,32 @@
 			<p class="date">31 March 2018</p>
 			<p class="about">Performing with Rajesh Vaidya for a private event</p>
 		</li>
+		
+		<li data-date="2018-08-04">
+			<p class="date">04 August 2018</p>
+			<p class="about">Concert with Dr S P Balasubramaniam</p>
+		</li>
+		
+		<li data-date="2018-08-15">
+			<p class="date">15 August 2018</p>
+			<p class="about">Tribute concert to Sri R D Burman at Bangalore</p>
+		</li>
+		
+		<li data-date="2018-08-17">
+			<p class="date">17 August 2018</p>
+			<p class="about">Private concert at Chennai</p>
+		</li>
+		
+		<li data-date="2018-08-18">
+			<p class="date">18 August 2018</p>
+			<p class="about">Concert with renowned music director Sri Anoop Seelin</p>
+		</li>
+		
+		
+		
+		
+		
+		
 		<!-- Template -->
 		<!-- <li>
 			<p class="date">12 January 2018</p>
