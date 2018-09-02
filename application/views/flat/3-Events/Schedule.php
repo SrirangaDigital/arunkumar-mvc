@@ -154,10 +154,44 @@
 			<p class="date">18 August 2018</p>
 			<p class="about">Concert with renowned music director Sri Anoop Seelin</p>
 		</li>
-		
-		
-		
-		
+		<li data-date="2018-09-02">
+			<p class="date">02 September 2018</p>
+			<p class="about">Performing at Toronto with Vijay Tv super singers</p>
+		</li>
+
+		<li data-date="2018-09-03">
+			<p class="date">03 September 2018</p>
+			<p class="about">Performing at Toronto with Vijay Tv super singers</p>
+		</li>
+
+		<li data-date="2018-09-08">
+			<p class="date">08 September 2018</p>
+			<p class="about">Performing with Veena maestro Rajhesh Vaidhya at Mojo festival KL Malaysia</p>
+		</li>
+		<li data-date="2018-09-15">
+			<p class="date">15 September 2018</p>
+			<p class="about">Performing with Pandit Pravin Godkhindi and Pandit Jayatheerth Mevundi at Bengaluru Ganesha Utsava</p>
+		</li>
+		<li data-date="2018-09-17">
+			<p class="date">17 September 2018</p>
+			<p class="about">Performing a special R D Burman tribute concert at Bengaluru Ganesha Utsava</p>
+		</li>
+		<li data-date="2018-09-19">
+			<p class="date">19 September 2018</p>
+			<p class="about">Performing with Legendary Dr S P Balasubramaniam at Bengaluru Ganesha Utsava</p>
+		</li>
+		<li data-date="2018-09-21">
+			<p class="date">21 September 2018</p>
+			<p class="about">Performing a special evening of Rishi Kapoor hits with Sri Vijay Prakash and Sri Rishi Kapoor himself</p>
+		</li>
+		<li data-date="2018-09-23">
+			<p class="date">23 September 2018</p>
+			<p class="about">Performing a unique concert with Sri Vijay Prakash</p>
+		</li>
+		<li data-date="2018-09-29">
+			<p class="date">29 September 2018</p>
+			<p class="about">Performing for a fund riser in Bangalore with Sri Vijay Prakash,Smt Archana Udupa and best musicians of karnataka</p>
+		</li>
 		
 		
 		<!-- Template -->
