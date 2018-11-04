@@ -192,7 +192,56 @@
 			<p class="date">29 September 2018</p>
 			<p class="about">Performing for a fund riser in Bangalore with Sri Vijay Prakash,Smt Archana Udupa and best musicians of karnataka</p>
 		</li>
-		
+		<li data-date="2018-10-31">
+			<p class="date">31 October 2018</p>
+			<p class="about">Performed at United Nations, Geneva with Ricky Kej and his ensemble</p>
+		</li>
+		<li data-date="2018-11-04">
+			<p class="date">04 November 2018</p>
+			<p class="about">Performing carnatic classical concert with Vidwan TNS Krishna @ Rama Lalitha Kala Mandir</p>
+		</li>
+		<li data-date="2018-11-08">
+			<p class="date">08 November 2018</p>
+			<p class="about">Performing at muscut with singers M D Pallavi, Hemanth and Anuradha Bhat for kannada sangha Rajyotsava concert</p>
+		</li>
+		<li data-date="2018-11-11">
+			<p class="date">11 November 2018</p>
+			<p class="about">Performing a special morsing duet concert with Vid Pramath Kiran</p>
+		</li>
+		<li data-date="2018-11-13">
+			<p class="date">13 November 2018</p>
+			<p class="about">Performing at a private gathering in Bangalore</p>
+		</li>
+		<li data-date="2018-11-16">
+			<p class="date">16 November 2018</p>
+			<p class="about">Performing with Laya Tharanga for Kailasaa music festival at Chikkamagalur.</p>
+		</li>
+		<li data-date="2018-11-18">
+			<p class="date">18 November 2018</p>
+			<p class="about">Performing with Sri Vijay Prakash for a private event in Vijayawada</p>
+		</li>
+		<li data-date="2018-11-21">
+			<p class="date">21 November 2018</p>
+			<p class="about">Performing at Kumuta for a private event with Sri Vijay Prakasha</p>
+		</li>
+		<li data-date="2018-11-22">
+			<p class="date">22 November 2018</p>
+			<p class="about">Performing in St Johns Auditorium with Sri Vijay Prakash</p>
+		</li>
+		<li data-date="2018-11-23">
+			<p class="date">23 November 2018</p>
+			<p class="about">Performing with Pandit Bickram Ghosh in Dubai</p>
+		</li>
+		<li data-date="2018-11-24">
+			<p class="date">24 November 2018</p>
+			<p class="about">Performing with Sri Vijay Prakash for a public event in Mysore</p>
+		</li>
+		<li data-date="2018-11-25">
+			<p class="date">25 November 2018</p>
+			<p class="about">Performing with Ustad Fazal Qureshi in Ahmedabad</p>
+		</li>
+
+
 		
 		<!-- Template -->
 		<!-- <li>
