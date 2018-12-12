@@ -240,7 +240,42 @@
 			<p class="date">25 November 2018</p>
 			<p class="about">Performing with Ustad Fazal Qureshi in Ahmedabad</p>
 		</li>
-
+		<li data-date="2018-12-04">
+			<p class="date">04 December 2018</p>
+			<p class="about">Private concert with Laya Tharanga</p>
+		</li>
+		<li data-date="2018-12-06">
+			<p class="date">06 December 2018</p>
+			<p class="about">Performing with Vidwan Vijay Prakash,Ustad Toufiq qureshi,Vidwan Ravi Kulur and friends at Dharmasthala for Lakshadeepotsava</p>
+		</li>
+		<li data-date="2018-12-13">
+			<p class="date">13 December 2018</p>
+			<p class="about">Celebrating 20 years togetherness  of Laya Tharanga with friends at Chowdaiah Memorial Hall</p>
+		</li>
+		<li data-date="2018-12-14">
+			<p class="date">14 December 2018</p>
+			<p class="about">Private concert</p>
+		</li>
+		<li data-date="2018-12-20">
+			<p class="date">20 December 2018</p>
+			<p class="about">Performing with Vijay Prakash and friends</p>
+		</li>
+		<li data-date="2018-12-22">
+			<p class="date">22 December 2018</p>
+			<p class="about">Performing with Mysore Nagraj and Mysore Dr Manjunath for Krishna Sangeetha Sabha's Golden jubilee year celebrations at Jayarama Seva Mandali</p>
+		</li>
+		<li data-date="2018-12-25">
+			<p class="date">25 December 2018</p>
+			<p class="about">Performing with Sri Karthick at Chennai for music season</p>
+		</li>
+		<li data-date="2018-12-28">
+			<p class="date">28 December 2018</p>
+			<p class="about">Performing with Ricky Kej at Vizag</p>
+		</li>
+		<li data-date="2018-12-30">
+			<p class="date">30 December 2018</p>
+			<p class="about">Performing with Dr S P Balasubramaniam at Bangalore</p>
+		</li>
 
 		
 		<!-- Template -->
